@@ -17,3 +17,16 @@ En el archivo P4.py se puede encontrar el código implementado tanto en el modul
 * Realice pruebas de estacionaridad y ergodicidad a la señal modulada `senal_Tx` y obtenga conclusiones sobre estas.
 
 Las pruebas hechas con el código escrito para esta sección, nos da como resultado las siguientes imágenes:
+
+![P4-2](P4-2.png)
+
+Se puede apreciar en esta imagen que tanto el valor esperado como el valor obtenido son demasiado cercanos a 0, por lo que es un parámetro bastante confiable. Por otro lado, en la siguiente imagen:
+
+![P4-2-1](P4-2-1.png)
+
+Esta imagen no es lo suficientemente confiable, ya que después de 15 min de simulación, el programa terminó la simulación abrubtamente, por lo que no se sabe con certeza si estos son los valores reales obtenidos.
+
+* Determine y grafique la densidad espectral de potencia para la señal modulada `senal_Tx`.
+Por último, utilizando la transformada rápida de Fourier, se logra encontrar y graficar la densidad espectral de potencia de la señal modulada, dada en la siguiente imagen.
+
+![P4-3](P4-3.png)
